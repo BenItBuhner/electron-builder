@@ -46,7 +46,7 @@ const PACKAGE_MANAGER_VERSION_MAP = {
   [PM.YARN]: { cli: "yarn", version: "1.22.22" },
   [PM.YARN_BERRY]: { cli: "yarn", version: "4.18.0" },
   [PM.PNPM]: { cli: "pnpm", version: "11.26.0" },
-  [PM.BUN]: { cli: "bun", version: "1.4.2" },
+  [PM.BUN]: { cli: "bun", version: "1.4.4" },
   [PM.TRAVERSAL]: { cli: "npm", version: "12.0.2" }, // use npm to install, we're testing manual node traversal, but we still need something to install the dependencies
 }
 
